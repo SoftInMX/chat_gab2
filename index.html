@@ -6,7 +6,7 @@
 	socket.on('connect', function(){
 	/** Traer sesion del usuario */
 		$.ajax({
-			url: "http://localhost/chat/data.php",
+			url: "http://chat-gab2me.herokuapp.com/data.php",
 			type: "GET",
 			dataType: 'jsonp',
 			success: function(data) {
